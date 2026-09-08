@@ -3,9 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Galería de Expressive English Academy con experiencias reales de aprendizaje y crecimiento.">
+  <meta name="description" content="Galería de Expressive English Academy en La Concepción, Masaya. Conoce experiencias reales de aprendizaje, conversación en inglés e intercambio cultural.">
   <meta name="theme-color" content="#081220">
-  <title>Expressive English Academy | Galería</title>
+
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Expressive English Academy">
+  <link rel="canonical" href="https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/gallery.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Galería | Expressive English Academy">
+  <meta property="og:description" content="Mira experiencias reales de nuestros estudiantes practicando inglés, desarrollando confianza y participando en intercambio cultural en La Concepción, Masaya.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/gallery.html">
+  <meta property="og:site_name" content="Expressive English Academy">
+  <meta property="og:locale" content="es_NI">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["EducationalOrganization", "LocalBusiness"],
+    "@id": "https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/#organization",
+    "name": "Expressive English Academy",
+    "url": "https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/",
+    "telephone": "+50582581434",
+    "description": "Academia de inglés en La Concepción, Masaya, Nicaragua, con programas para niños, adolescentes y adultos y oportunidades de conversación e intercambio cultural.",
+    "foundingDate": "2024",
+    "founder": {
+      "@type": "Person",
+      "name": "Jose Andres Martinez Reyes"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "La Concepción",
+      "addressRegion": "Masaya",
+      "addressCountry": "NI"
+    },
+    "sameAs": [
+      "https://www.facebook.com/p/Expressive-English-Academy-61554703284587/",
+      "https://www.instagram.com/expressiveenglishacademy/",
+      "https://www.tiktok.com/@expressiveenglishacademy"
+    ]
+  }
+  </script>
+
+  <title>Galería | Expressive English Academy en La Concepción, Masaya</title>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap");
 
@@ -354,6 +396,19 @@
       flex-wrap: wrap;
     }
 
+
+    .footer-links a {
+      padding: 10px 14px;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+    }
+
+    .footer-links a:hover {
+      color: var(--text);
+    }
+
     .floating-whatsapp {
       position: fixed;
       right: 18px;
@@ -415,13 +470,14 @@
         </div>
       </a>
 
-      <button class="nav-toggle" id="navToggle" aria-expanded="false">Menu</button>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menú">Menú</button>
 
-      <nav class="main-nav" id="siteNav">
+      <nav class="main-nav" id="siteNav" aria-label="Navegación principal">
         <a href="index.html">Inicio</a>
         <a href="about.html">Nosotros</a>
         <a href="courses.html">Cursos</a>
         <a class="active" href="gallery.html">Galería</a>
+        <a href="volunteer.html">Volunteer</a>
         <a class="nav-cta" href="donate.html">Apoya</a>
       </nav>
     </div>
@@ -487,9 +543,19 @@
     <div class="container footer-inner">
       <div>
         <h3>Expressive English Academy</h3>
-        <p class="muted">Galería pública sincronizada con las fotos más recientes.</p>
+        <p class="muted">Inglés, conversación y experiencias que conectan a nuestra comunidad con nuevas oportunidades.</p>
       </div>
-      <div class="muted">&copy; <span id="year"></span> Expressive English Academy</div>
+      <div>
+        <div class="footer-links" style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:14px;">
+          <a href="index.html">Inicio</a>
+          <a href="about.html">Nosotros</a>
+          <a href="courses.html">Cursos</a>
+          <a href="gallery.html">Galería</a>
+          <a href="volunteer.html">Volunteer</a>
+          <a href="donate.html">Apoya</a>
+        </div>
+        <div class="muted">&copy; <span id="year"></span> Expressive English Academy</div>
+      </div>
     </div>
   </footer>
 
@@ -498,6 +564,7 @@
     href="https://wa.me/50582581434?text=Hola%20quiero%20informacion%20sobre%20los%20cursos%20y%20tambien%20como%20puedo%20apoyar%20con%20donaciones"
     target="_blank"
     rel="noopener"
+    aria-label="Contactar a Expressive English Academy por WhatsApp"
   >
     WhatsApp
   </a>
