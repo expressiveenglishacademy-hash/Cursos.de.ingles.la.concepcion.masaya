@@ -26,4 +26,24 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/inscripciones.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/volunteer.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/privacidad.html</loc>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://expressiveenglishacademy-hash.github.io/Cursos.de.ingles.la.concepcion.masaya/pagos.html</loc>
+    <priority>0.4</priority>
+  </url>
+
 </urlset>
