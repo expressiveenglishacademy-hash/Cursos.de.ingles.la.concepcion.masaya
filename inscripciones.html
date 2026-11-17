@@ -555,12 +555,14 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 20px;
+      flex-wrap: wrap;
+      gap: 12px 20px;
       margin: 24px 0;
       padding: 23px 28px;
       border-radius: 17px;
       background: var(--azul-claro);
     }
+    #precios a:not(.boton), .faq a { color: var(--azul); font-weight: 750; }
     .matricula p { margin: 0; }
     .matricula strong { color: var(--azul-oscuro); font-size: 1.25rem; }
     .precios-cta { margin-top: 27px; }
@@ -978,32 +980,24 @@ Al final, más que un lugar elegante, buscaba un espacio donde realmente aprendi
             <p class="rango">KIDS</p>
             <h3>Domingo</h3>
             <p>8:00 a. m. a 10:00 a. m.</p>
-            <p class="precio-grande">US$20 <small>mensuales</small></p>
-            <p class="aproximado">Aproximadamente C$735.</p>
-            <span class="incluido">Material incluido</span>
           </article>
           <article class="tarjeta precio">
             <p class="rango">TEENS</p>
             <h3>Sábado</h3>
             <p>Diferentes grupos disponibles entre las 8:00 a. m. y las 3:00 p. m. Cada clase regular dura dos horas.</p>
-            <p class="precio-grande">US$30 <small>mensuales</small></p>
-            <p class="aproximado">Aproximadamente C$1,100.</p>
-            <span class="incluido">Material incluido</span>
           </article>
           <article class="tarjeta precio">
             <p class="rango">ADULTS</p>
             <h3>Sábado</h3>
             <p>3:00 p. m. a 5:00 p. m.</p>
-            <p class="precio-grande">US$35 <small>mensuales</small></p>
-            <p class="aproximado">Aproximadamente C$1,285.</p>
-            <span class="incluido">Material incluido</span>
           </article>
         </div>
         <div class="matricula">
-          <p><strong>Matrícula: US$5</strong></p>
-          <p>Aproximadamente C$185.</p>
+          <p><strong>Matrícula: US$5</strong>, se paga al inscribirse.</p>
+          <p><strong>Material: C$200 por nivel</strong> (dos meses).</p>
         </div>
-        <p class="nota">Los precios en córdobas son aproximados y están sujetos al tipo de cambio vigente el día del pago.</p>
+        <p>La mensualidad depende del grupo y se confirma por WhatsApp (<a href="https://wa.me/50558432216" target="_blank" rel="noopener noreferrer">+505 5843 2216</a>) antes de inscribirte.</p>
+        <p>Los detalles están en la <a href="pagos.html">Política de pagos y reembolsos</a>.</p>
         <p>Los cupos y horarios están sujetos a disponibilidad. Completa la solicitud de inscripción y nos comunicaremos contigo por WhatsApp para recomendarte el grupo adecuado.</p>
         <a class="boton precios-cta" href="#inscripcion">Consultar disponibilidad e iniciar inscripción</a>
       </div>
@@ -1022,8 +1016,8 @@ Al final, más que un lugar elegante, buscaba un espacio donde realmente aprendi
           <p>Cada nivel tiene una duración de ocho semanas. Las clases regulares duran dos horas.</p>
         </details>
         <details>
-          <summary>¿El material está incluido?</summary>
-          <p>Sí. El material didáctico está incluido en la mensualidad.</p>
+          <summary>¿El material está incluido en la mensualidad?</summary>
+          <p>No. El material cuesta C$200 por nivel y cada nivel dura dos meses. La matrícula es de US$5 y se paga al inscribirse. La mensualidad depende del grupo y se confirma por WhatsApp (<a href="https://wa.me/50558432216" target="_blank" rel="noopener noreferrer">+505 5843 2216</a>) antes de inscribirte. Los detalles están en la <a href="pagos.html">Política de pagos y reembolsos</a>.</p>
         </details>
         <details>
           <summary>¿Completar el formulario garantiza el cupo?</summary>
