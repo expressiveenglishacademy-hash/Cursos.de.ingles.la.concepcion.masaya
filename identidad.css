@@ -1,0 +1,73 @@
+/* Identidad visible del negocio. Funciona sobre los pies de página oscuros del sitio. */
+.eea-identidad {
+  width: min(1180px, calc(100% - 2rem));
+  margin: 28px auto 0;
+  padding: 22px 0 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  color: #d7e6f5;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+footer .eea-identidad h2 {
+  margin: 0 0 8px;
+  color: #f7fbff;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+footer .eea-identidad p,
+.contacto .eea-identidad p {
+  margin: 0 0 10px;
+  color: #d7e6f5;
+}
+
+.eea-identidad address {
+  font-style: normal;
+}
+
+footer .eea-identidad a,
+.contacto .eea-identidad a {
+  color: #9aebff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+}
+
+footer .eea-identidad a:hover,
+.contacto .eea-identidad a:hover {
+  color: #f7fbff;
+}
+
+.eea-identidad-grid {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr 1fr;
+  gap: 22px 28px;
+  align-items: start;
+}
+
+.eea-identidad strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #f7fbff;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.eea-identidad-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-top: 8px;
+  padding-bottom: 72px;
+}
+
+@media (max-width: 800px) {
+  .eea-identidad-grid {
+    grid-template-columns: 1fr;
+  }
+}
